@@ -7,6 +7,10 @@
     <title>Voting table</title>
 
     <style>
+      body {
+        box-sizing: border-box;
+        
+      }
       h1 {
         text-align: center;
       }
@@ -21,6 +25,22 @@
         border: 1px solid white;
         padding: 10px;
       }
+      tbody tr td {
+        border: 1px solid black;
+        padding: 10px;
+      }
+      .second-data {
+        width: 400px;
+      }
+      tbody tr td:nth-child(1),
+       tbody tr td:nth-child(4), 
+       tbody tr td:nth-child(5), 
+       tbody tr td:nth-child(6) {
+        width: 200px;
+      }
+      tr td:last-child {
+       text-align: end;
+      }
     </style>
   </head>
 
@@ -30,7 +50,7 @@
       <thead>
         <tr>
           <th>PS_Code</th>
-          <th>PS_Name</th>
+          <th class="second-data">PS_Name</th>
           <th>Region_Name</th>
           <th>District_Name</th>
           <th>Constituency_Name</th>
@@ -41,44 +61,200 @@
       <tbody>
         <tr>
           <td>A00111</td>
-          <td>METH PRM KUSA</td>
+          <td class="second-data">METH PRIM KUSA</td>
           <td>ASHANTI</td>
-          <td>ADANSI North</td>
-          <td>fomena</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
           <td>341</td>
         </tr>
 
         <tr>
-          <td>A00111</td>
-          <td>METH PRM KUSA</td>
+          <td>A00112</td>
+          <td class="second-data">PENTECOST CHURCH DENKYIE</td>
           <td>ASHANTI</td>
-          <td>ADANSI North</td>
-          <td>fomena</td>
-          <td>341</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>172</td>
+        </tr>
+
+        <tr>
+          <td>A00113</td>
+          <td class="second-data">COUNCIL HALL FOMENA</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>533</td>
+        </tr>
+
+        <tr>
+          <td>A00114</td>
+          <td class="second-data">D/A PRIM SCH FOMENA</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>312</td>
+        </tr>
+
+        <tr>
+          <td>A00115</td>
+          <td class="second-data">PRISON CAMP NEW AYAASE</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>338</td>
+        </tr>
+
+        <tr>
+          <td>A00116</td>
+          <td class="second-data">SALVATION ARMY CHURCH FOMENA</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>757</td>
         </tr>
         <tr>
-          <td>A00111</td>
-          <td>METH PRM KUSA</td>
+          <td>A00117</td>
+          <td class="second-data">AHMADIYA SNR HIGH SCH FOMENA</td>
           <td>ASHANTI</td>
-          <td>ADANSI North</td>
-          <td>fomena</td>
-          <td>341</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>334</td>
         </tr>
         <tr>
-          <td>A00111</td>
-          <td>METH PRM KUSA</td>
+          <td>A00118</td>
+          <td class="second-data">CHIEF'S PALACE FOMENA</td>
           <td>ASHANTI</td>
-          <td>ADANSI North</td>
-          <td>fomena</td>
-          <td>341</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>484</td>
         </tr>
         <tr>
-          <td>A00111</td>
-          <td>METH PRM KUSA</td>
+          <td>A00119</td>
+          <td class="second-data">CATHOLIC PRIM SCH OLD AYAASE</td>
           <td>ASHANTI</td>
-          <td>ADANSI North</td>
-          <td>fomena</td>
-          <td>341</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>441</td>
+        </tr>
+        <tr>
+          <td>A00120</td>
+          <td class="second-data">JUNIOR SEC SCH OLD AYAASE</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>457</td>
+        </tr>
+        <tr>
+          <td>A00121</td>
+          <td class="second-data">D/A PRIM BENA</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>178</td>
+        </tr>
+        <tr>
+          <td>A00122</td>
+          <td class="second-data">DOMPOASE S.H.S</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>642</td>
+        </tr>
+        <tr>
+          <td>A00123</td>
+          <td class="second-data">DISTRICT EDUCATION OFFICE DOMPOASE</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>933</td>
+        </tr>
+        <tr>
+          <td>A00124</td>
+          <td class="second-data">DEMO J H S DOMPOASE</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>251</td>
+        </tr>
+        <tr>
+          <td>A00125</td>
+          <td class="second-data">MARKET SQUARE DOMPOASE</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>522</td>
+        </tr>
+        <tr>
+          <td>A00126</td>
+          <td class="second-data">DOABIN D/A J H S DOMPOASE</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>622</td>
+        </tr>
+        <tr>
+          <td>A00127</td>
+          <td class="second-data">BUABIN D/A PRIM DOMPOASE</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>209</td>
+        </tr>
+        <tr>
+          <td>A00128</td>
+          <td class="second-data">COCOA SHED DOMPOASE</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>325</td>
+        </tr>
+        <tr>
+          <td>A00129</td>
+          <td class="second-data">DEMO PRIM SCH DOMPOASE</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>191</td>
+        </tr>
+        <tr>
+          <td>A00130</td>
+          <td class="second-data">D/A PRIM SCH AGOGOOSO</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>412</td>
+        </tr>
+        <tr>
+          <td>A00131</td>
+          <td class="second-data">D/A PRIMARY SCHOOL AHINSAN</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>401</td>
+        </tr>
+        <tr>
+          <td>A00132</td>
+          <td class="second-data">D/A JHS MEDOMA</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>673</td>
+        </tr>
+        <tr>
+          <td>A00133</td>
+          <td class="second-data">ROMAN CATHOLIC PRIM MEDOMA</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>502</td>
+        </tr>
+        <tr>
+          <td>A00134</td>
+          <td class="second-data">D/A JHS KYEABOSO</td>
+          <td>ASHANTI</td>
+          <td>ADANSI NORTH</td>
+          <td>FOMENA</td>
+          <td>268</td>
         </tr>
       </tbody>
     </table>
